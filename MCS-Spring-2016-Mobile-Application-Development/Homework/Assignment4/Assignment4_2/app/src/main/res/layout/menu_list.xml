@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="70dp"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:layout_marginTop="3dp"
+android:layout_marginBottom="3dp">
+
+<ImageView
+	android:id="@+id/imageView1"
+	android:layout_gravity="center"
+	android:layout_width="64dp"
+	android:layout_height="64dp"
+	android:src="@drawable/breakfast"
+	android:layout_centerVertical="true" />
+
+<TextView
+	android:id="@+id/lblName"
+	android:layout_gravity="center"
+	android:layout_width="100dp"
+	android:layout_height="wrap_content"
+	android:layout_alignTop="@id/imageView1"
+	android:textSize="@dimen/text_size"
+	android:text="TextView"
+	android:textColor="#000000"
+	android:textStyle="bold"
+	android:layout_margin="10dp"
+	android:layout_marginRight="40dp"
+	android:layout_toRightOf="@id/imageView1"/>
+
+<TextView
+	android:id="@+id/lblPrice"
+	android:layout_gravity="center"
+	android:layout_width="100dp"
+	android:layout_height="wrap_content"
+	android:textSize="@dimen/text_size"
+	android:text="TextView"
+	android:layout_below="@+id/nameTextView"
+	android:layout_alignRight="@+id/chkMenu"
+	android:layout_alignParentBottom="true"
+	android:textAlignment="gravity"
+	android:layout_marginLeft="10dp"
+	android:layout_marginBottom="10dp"
+	android:gravity="right"
+	android:textColor="@android:color/black"/>
+
+<CheckBox
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true"
+	android:id="@+id/chkMenu"
+	android:layout_alignParentTop="true"
+	android:focusable="false"
+	android:focusableInTouchMode="false"/>
+</RelativeLayout>

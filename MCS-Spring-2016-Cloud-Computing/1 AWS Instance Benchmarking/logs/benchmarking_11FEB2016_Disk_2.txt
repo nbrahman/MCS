@@ -1,0 +1,197 @@
+Disk - Sequential Access Statistics
+Description	Thread 1 Values
+Operation: 	Write
+Block Size: 	1 Bytes
+No. of Blocks: 	30720
+Total Memory Size: 	30720 Bytes
+Throughput: 	 0.0004 MBPS
+Latency: 	2.419662011718750 milliSec
+
+
+Operation: 	Read
+Block Size: 	1 Bytes
+No. of Blocks: 	30720
+Total Memory Size: 	30720 Bytes
+Throughput: 	 0.0020 MBPS
+Latency: 	0.485805045572917 milliSec
+
+
+Operation: 	Write
+Block Size: 	1024 Bytes
+No. of Blocks: 	30
+Total Memory Size: 	30720 Bytes
+Throughput: 	 0.9700 MBPS
+Latency: 	1.006766666666667 milliSec
+
+
+Operation: 	Read
+Block Size: 	1024 Bytes
+No. of Blocks: 	30
+Total Memory Size: 	30720 Bytes
+Throughput: 	 1.9460 MBPS
+Latency: 	0.000490071614583 milliSec
+
+
+Operation: 	Write
+Block Size: 	1048576 Bytes
+No. of Blocks: 	50
+Total Memory Size: 	52428800 Bytes
+Throughput: 	 7.2027 MBPS
+Latency: 	138.836880000000008 milliSec
+
+
+Operation: 	Read
+Block Size: 	1048576 Bytes
+No. of Blocks: 	50
+Total Memory Size: 	52428800 Bytes
+Throughput: 	463.3276 MBPS
+Latency: 	0.000002058315277 milliSec
+
+
+
+
+
+Disk - Random Access Statistics
+Description	Thread 1 Values
+Operation: 	Write
+Block Size: 	1 Bytes
+No. of Blocks: 	30720
+Total Memory Size: 	30720 Bytes
+Throughput: 	 0.0003 MBPS
+Latency: 	3.475502148437500 milliSec
+
+
+Operation: 	Read
+Block Size: 	1 Bytes
+No. of Blocks: 	30720
+Total Memory Size: 	30720 Bytes
+Throughput: 	 0.0013 MBPS
+Latency: 	0.738930240885417 milliSec
+
+
+Operation: 	Write
+Block Size: 	1024 Bytes
+No. of Blocks: 	30
+Total Memory Size: 	30720 Bytes
+Throughput: 	 0.6463 MBPS
+Latency: 	0.001475651041667 milliSec
+
+
+Operation: 	Read
+Block Size: 	1024 Bytes
+No. of Blocks: 	30
+Total Memory Size: 	30720 Bytes
+Throughput: 	 2.4024 MBPS
+Latency: 	0.000396972656250 milliSec
+
+
+Operation: 	Write
+Block Size: 	1048576 Bytes
+No. of Blocks: 	50
+Total Memory Size: 	52428800 Bytes
+Throughput: 	 1.0779 MBPS
+Latency: 	0.000884786300659 milliSec
+
+
+Operation: 	Read
+Block Size: 	1048576 Bytes
+No. of Blocks: 	50
+Total Memory Size: 	52428800 Bytes
+Throughput: 	998.7216 MBPS
+Latency: 	0.000000954895020 milliSec
+
+
+
+
+
+Disk - Sequential Access Statistics
+Description	Thread 1 Values	Thread 2 Values	Final Values
+Operation: 	Write	Write	Write
+Block Size: 	1 Bytes	1 Bytes	1 Bytes
+No. of Blocks: 	30720	30720	61440
+Total Memory Size: 	30720 Bytes	30720 Bytes	61440 Bytes
+Throughput: 	 0.0002 MBPS	 0.0002 MBPS	 0.0005 MBPS
+Latency: 	4.025180501302083 milliSec	4.034378385416667 milliSec	4.029779443359375 milliSec
+
+Operation: 	Read	Read	Read
+Block Size: 	1 Bytes	1 Bytes	1 Bytes
+No. of Blocks: 	30720	30720	61440
+Total Memory Size: 	30720 Bytes	30720 Bytes	61440 Bytes
+Throughput: 	 0.0007 MBPS	 0.0007 MBPS	 0.0014 MBPS
+Latency: 	1.349740625000000 milliSec	1.347382845052083 milliSec	1.348561735026042 milliSec
+
+Operation: 	Write	Write	Write
+Block Size: 	1024 Bytes	1024 Bytes	1024 Bytes
+No. of Blocks: 	30	30	60
+Total Memory Size: 	30720 Bytes	30720 Bytes	61440 Bytes
+Throughput: 	 0.4832 MBPS	 0.4873 MBPS	 0.9705 MBPS
+Latency: 	2.021066666666667 milliSec	2.003900000000000 milliSec	2.012483333333333 milliSec
+
+Operation: 	Read	Read	Read
+Block Size: 	1024 Bytes	1024 Bytes	1024 Bytes
+No. of Blocks: 	30	30	60
+Total Memory Size: 	30720 Bytes	30720 Bytes	61440 Bytes
+Throughput: 	 1.1437 MBPS	 1.1110 MBPS	 2.2548 MBPS
+Latency: 	0.000833821614583 milliSec	0.000858365885417 milliSec	0.000846093750000 milliSec
+
+Operation: 	Write	Write	Write
+Block Size: 	1048576 Bytes	1048576 Bytes	1048576 Bytes
+No. of Blocks: 	50	50	100
+Total Memory Size: 	52428800 Bytes	52428800 Bytes	104857600 Bytes
+Throughput: 	 7.2631 MBPS	 8.7499 MBPS	16.0130 MBPS
+Latency: 	137.682379999999995 milliSec	114.287180000000006 milliSec	125.984780000000001 milliSec
+
+Operation: 	Read	Read	Read
+Block Size: 	1048576 Bytes	1048576 Bytes	1048576 Bytes
+No. of Blocks: 	50	50	100
+Total Memory Size: 	52428800 Bytes	52428800 Bytes	104857600 Bytes
+Throughput: 	120.6639 MBPS	118.0554 MBPS	238.7193 MBPS
+Latency: 	0.000007903556824 milliSec	0.000008078193665 milliSec	0.000007990875244 milliSec
+
+
+
+
+Disk - Random Access Statistics
+Description	Thread 1 Values	Thread 2 Values	Final Values
+Operation: 	Write	Write	Write
+Block Size: 	1 Bytes	1 Bytes	1 Bytes
+No. of Blocks: 	30720	30720	61440
+Total Memory Size: 	30720 Bytes	30720 Bytes	61440 Bytes
+Throughput: 	 0.0002 MBPS	 0.0002 MBPS	 0.0003 MBPS
+Latency: 	5.772785286458333 milliSec	5.726577766927083 milliSec	5.749681526692708 milliSec
+
+Operation: 	Read	Read	Read
+Block Size: 	1 Bytes	1 Bytes	1 Bytes
+No. of Blocks: 	30720	30720	61440
+Total Memory Size: 	30720 Bytes	30720 Bytes	61440 Bytes
+Throughput: 	 0.0008 MBPS	 0.0008 MBPS	 0.0017 MBPS
+Latency: 	1.134782617187500 milliSec	1.164883951822917 milliSec	1.149833284505208 milliSec
+
+Operation: 	Write	Write	Write
+Block Size: 	1024 Bytes	1024 Bytes	1024 Bytes
+No. of Blocks: 	30	30	60
+Total Memory Size: 	30720 Bytes	30720 Bytes	61440 Bytes
+Throughput: 	 0.2365 MBPS	 0.2370 MBPS	 0.4735 MBPS
+Latency: 	0.004032486979167 milliSec	0.004023307291667 milliSec	0.004027897135417 milliSec
+
+Operation: 	Read	Read	Read
+Block Size: 	1024 Bytes	1024 Bytes	1024 Bytes
+No. of Blocks: 	30	30	60
+Total Memory Size: 	30720 Bytes	30720 Bytes	61440 Bytes
+Throughput: 	 0.8870 MBPS	 0.8969 MBPS	 1.7839 MBPS
+Latency: 	0.001075227864583 milliSec	0.001063281250000 milliSec	0.001069254557292 milliSec
+
+Operation: 	Write	Write	Write
+Block Size: 	1048576 Bytes	1048576 Bytes	1048576 Bytes
+No. of Blocks: 	50	50	100
+Total Memory Size: 	52428800 Bytes	52428800 Bytes	104857600 Bytes
+Throughput: 	 0.5266 MBPS	 0.5266 MBPS	 1.0532 MBPS
+Latency: 	0.001811010093689 milliSec	0.001810987339020 milliSec	0.001810998716354 milliSec
+
+Operation: 	Read	Read	Read
+Block Size: 	1048576 Bytes	1048576 Bytes	1048576 Bytes
+No. of Blocks: 	50	50	100
+Total Memory Size: 	52428800 Bytes	52428800 Bytes	104857600 Bytes
+Throughput: 	859.7122 MBPS	977.9377 MBPS	1837.6499 MBPS
+Latency: 	0.000001109294891 milliSec	0.000000975189209 milliSec	0.000001042242050 milliSec
+

@@ -1,0 +1,6 @@
+java -classpath PA3.jar JobFileGenerator 10000 "sleep 0" sleep010k.txt
+java -classpath PA3.jar JobFileGenerator 1000 "sleep 0.01" sleep10ms_1k.txt
+java -classpath PA3_2.jar SQSClient -s LOCAL -t 1 -w sleep10ms_1k.txt
+java -classpath PA3_2.jar SQSClient -s PA3Job -w sleep10ms_1k.txt
+java -classpath PA3_2.jar RemoteWorker -s PA3Job -t 8
+pssh -i -h 1Worker_PSSH_IP.txt -t 10000000 -x "-oStrictHostKeyChecking=no  -i Niks_CS553S16.pem" -l ubuntu 'java -classpath /home/ubuntu/Cloud_PA3/PA3_3.jar RemoteWorker -s PA3Job -t 8'

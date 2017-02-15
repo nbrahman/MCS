@@ -1,0 +1,18 @@
+Instance ID	Public DNS	Public IP	Private DNS Name	Private IP Address
+i-00c8160034f3c42f1	ec2-52-91-211-220.compute-1.amazonaws.com	52.91.211.220	ip-172-31-62-88.ec2.internal	172.31.62.88 (Client)
+i-012e45e2fd34d576e	ec2-52-91-48-179.compute-1.amazonaws.com	52.91.48.179	ip-172-31-56-181.ec2.internal	172.31.56.181
+i-0464f6f06dfc6e756	ec2-52-90-41-245.compute-1.amazonaws.com	52.90.41.245	ip-172-31-56-182.ec2.internal	172.31.56.182
+i-0480a4dd49d866528	ec2-52-91-255-112.compute-1.amazonaws.com	52.91.255.112	ip-172-31-56-186.ec2.internal	172.31.56.186
+i-04e532d83f90fd3ea	ec2-52-90-114-116.compute-1.amazonaws.com	52.90.114.116	ip-172-31-56-187.ec2.internal	172.31.56.187
+i-0504eb1b9fb2bafdf	ec2-52-87-208-2.compute-1.amazonaws.com	52.87.208.2	ip-172-31-56-180.ec2.internal	172.31.56.180
+i-06931a9c713813938	ec2-54-87-129-227.compute-1.amazonaws.com	54.87.129.227	ip-172-31-56-183.ec2.internal	172.31.56.183
+i-07601f4a0b628f327	ec2-52-91-254-209.compute-1.amazonaws.com	52.91.254.209	ip-172-31-56-191.ec2.internal	172.31.56.191
+i-07bd24ee3fad1ab58	ec2-52-90-115-20.compute-1.amazonaws.com	52.90.115.20	ip-172-31-56-184.ec2.internal	172.31.56.184
+i-094aea1eb10f94d4a	ec2-54-82-235-252.compute-1.amazonaws.com	54.82.235.252	ip-172-31-56-185.ec2.internal	172.31.56.185
+i-0c7d7c10f60e38f3a	ec2-54-83-143-186.compute-1.amazonaws.com	54.83.143.186	ip-172-31-56-192.ec2.internal	172.31.56.192
+i-0c95f04b0f5c806ad	ec2-52-90-8-65.compute-1.amazonaws.com	52.90.8.65	ip-172-31-56-193.ec2.internal	172.31.56.193
+i-0d5c613d4d4e6b460	ec2-52-91-200-22.compute-1.amazonaws.com	52.91.200.22	ip-172-31-56-179.ec2.internal	172.31.56.179
+i-0e2d9d89149e3b4a4	ec2-52-90-114-101.compute-1.amazonaws.com	52.90.114.101	ip-172-31-56-190.ec2.internal	172.31.56.190
+i-0e9df1bb845e31d97	ec2-52-90-239-81.compute-1.amazonaws.com	52.90.239.81	ip-172-31-56-188.ec2.internal	172.31.56.188
+i-0ed19f5b8eaef2074	ec2-52-87-234-88.compute-1.amazonaws.com	52.87.234.88	ip-172-31-56-178.ec2.internal	172.31.56.178
+i-0f2107e9edcef1ed5	ec2-52-91-87-18.compute-1.amazonaws.com	52.91.87.18	ip-172-31-56-189.ec2.internal	172.31.56.189

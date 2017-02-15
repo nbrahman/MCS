@@ -1,0 +1,116 @@
+ubuntu@ip-172-31-9-152:/mnt/raid/Cloud_PA2$ ./ems7 ./input/Test10GB.txt 80 4
+Splitting ./input/Test10GB.txt into 80 blocks.......
+Splitting completed
+Commencing sorting process........
+Thread Sorting started for file temp_in_00000.txt using Thread 1
+Thread Sorting started for file temp_in_00001.txt using Thread 0
+Thread Sorting started for file temp_in_00002.txt using Thread 2
+Thread Sorting started for file temp_in_00003.txt using Thread 3
+Thread Sorting started for file temp_in_00004.txt using Thread 1
+Thread Sorting started for file temp_in_00005.txt using Thread 3
+Thread Sorting started for file temp_in_00006.txt using Thread 0
+Thread Sorting started for file temp_in_00007.txt using Thread 2
+Thread Sorting started for file temp_in_00008.txt using Thread 1
+Thread Sorting started for file temp_in_00009.txt using Thread 3
+Thread Sorting started for file temp_in_00010.txt using Thread 2
+Thread Sorting started for file temp_in_00011.txt using Thread 0
+Thread Sorting started for file temp_in_00012.txt using Thread 1
+Thread Sorting started for file temp_in_00013.txt using Thread 2
+Thread Sorting started for file temp_in_00014.txt using Thread 0
+Thread Sorting started for file temp_in_00015.txt using Thread 3
+Thread Sorting started for file temp_in_00016.txt using Thread 1
+Thread Sorting started for file temp_in_00017.txt using Thread 0
+Thread Sorting started for file temp_in_00018.txt using Thread 2
+Thread Sorting started for file temp_in_00019.txt using Thread 3
+Thread Sorting started for file temp_in_00020.txt using Thread 1
+Thread Sorting started for file temp_in_00021.txt using Thread 0
+Thread Sorting started for file temp_in_00022.txt using Thread 2
+Thread Sorting started for file temp_in_00023.txt using Thread 3
+Thread Sorting started for file temp_in_00024.txt using Thread 1
+Thread Sorting started for file temp_in_00025.txt using Thread 2
+Thread Sorting started for file temp_in_00026.txt using Thread 0
+Thread Sorting started for file temp_in_00027.txt using Thread 3
+Thread Sorting started for file temp_in_00028.txt using Thread 1
+Thread Sorting started for file temp_in_00029.txt using Thread 2
+Thread Sorting started for file temp_in_00030.txt using Thread 0
+Thread Sorting started for file temp_in_00031.txt using Thread 3
+Thread Sorting started for file temp_in_00032.txt using Thread 1
+Thread Sorting started for file temp_in_00033.txt using Thread 2
+Thread Sorting started for file temp_in_00034.txt using Thread 0
+Thread Sorting started for file temp_in_00035.txt using Thread 3
+Thread Sorting started for file temp_in_00036.txt using Thread 1
+Thread Sorting started for file temp_in_00037.txt using Thread 2
+Thread Sorting started for file temp_in_00038.txt using Thread 0
+Thread Sorting started for file temp_in_00039.txt using Thread 3
+Thread Sorting started for file temp_in_00040.txt using Thread 1
+Thread Sorting started for file temp_in_00041.txt using Thread 2
+Thread Sorting started for file temp_in_00042.txt using Thread 3
+Thread Sorting started for file temp_in_00043.txt using Thread 1
+Thread Sorting started for file temp_in_00044.txt using Thread 0
+Thread Sorting started for file temp_in_00045.txt using Thread 2
+Thread Sorting started for file temp_in_00046.txt using Thread 3
+Thread Sorting started for file temp_in_00047.txt using Thread 0
+Thread Sorting started for file temp_in_00048.txt using Thread 1
+Thread Sorting started for file temp_in_00049.txt using Thread 2
+Thread Sorting started for file temp_in_00050.txt using Thread 3
+Thread Sorting started for file temp_in_00051.txt using Thread 0
+Thread Sorting started for file temp_in_00052.txt using Thread 1
+Thread Sorting started for file temp_in_00053.txt using Thread 2
+Thread Sorting started for file temp_in_00054.txt using Thread 3
+Thread Sorting started for file temp_in_00055.txt using Thread 0
+Thread Sorting started for file temp_in_00056.txt using Thread 1
+Thread Sorting started for file temp_in_00057.txt using Thread 2
+Thread Sorting started for file temp_in_00058.txt using Thread 3
+Thread Sorting started for file temp_in_00059.txt using Thread 0
+Thread Sorting started for file temp_in_00060.txt using Thread 1
+Thread Sorting started for file temp_in_00061.txt using Thread 2
+Thread Sorting started for file temp_in_00062.txt using Thread 3
+Thread Sorting started for file temp_in_00063.txt using Thread 0
+Thread Sorting started for file temp_in_00064.txt using Thread 1
+Thread Sorting started for file temp_in_00065.txt using Thread 2
+Thread Sorting started for file temp_in_00066.txt using Thread 3
+Thread Sorting started for file temp_in_00067.txt using Thread 0
+Thread Sorting started for file temp_in_00068.txt using Thread 1
+Thread Sorting started for file temp_in_00069.txt using Thread 2
+Thread Sorting started for file temp_in_00070.txt using Thread 3
+Thread Sorting started for file temp_in_00071.txt using Thread 1
+Thread Sorting started for file temp_in_00072.txt using Thread 0
+Thread Sorting started for file temp_in_00073.txt using Thread 2
+Thread Sorting started for file temp_in_00074.txt using Thread 3
+Thread Sorting started for file temp_in_00075.txt using Thread 1
+Thread Sorting started for file temp_in_00076.txt using Thread 0
+Thread Sorting started for file temp_in_00077.txt using Thread 2
+Thread Sorting started for file temp_in_00078.txt using Thread 3
+Thread Sorting started for file temp_in_00079.txt using Thread 1
+Final phase of merging all the sorted output files started
+Final phase of merging all the sorted output files completed
+Removing all the intermediate files
+The final sorted output is available in file ./input/Test10GB_output.txt
+./input/Test10GB.txt data sorted in 2073.21 seconds
+ubuntu@ip-172-31-9-152:/mnt/raid/Cloud_PA2$ ./valsort ./input/Test10GB_output.txt
+Records: 100000000
+Checksum: 2faf0ab746e89a8
+Duplicate keys: 0
+SUCCESS - all records are in order
+ubuntu@ip-172-31-9-152:/mnt/raid/Cloud_PA2$ head -10 ./input/Test10GB_output.txt 
+    "O!uve  000000000000000000000000001228D4  77778888000022224444DDDDDDDDEEEE00000000CCCC7777DDDD
+    PMd32=  00000000000000000000000003440CC1  FFFFEEEE6666CCCCBBBB999933335555DDDDDDDD777788886666
+    ^3CO],  0000000000000000000000000158C5C5  5555AAAA9999EEEE888822229999CCCCDDDD6666555544442222
+   !&S3/]]  00000000000000000000000002145D78  8888BBBBDDDD1111CCCC55556666BBBB1111EEEEDDDD22229999
+   !,=U#,9  000000000000000000000000019072E3  33332222FFFFBBBB0000FFFFAAAA666655553333DDDD3333CCCC
+   !0f[ITd  00000000000000000000000003CAAB4B  9999FFFF555533337777CCCC4444BBBB7777EEEEBBBBDDDD4444
+   !f6Suy2  00000000000000000000000003ABFD84  EEEE555555556666AAAA5555BBBBDDDD0000111166660000DDDD
+   #%NIpq.  00000000000000000000000003B36FB9  1111000033334444111166666666AAAAAAAA00001111CCCCEEEE
+   #'^cl'~  00000000000000000000000002EDC5C8  8888AAAA11114444FFFF77773333EEEE44440000FFFF99999999
+   $"-'Q)]  00000000000000000000000005F1265D  CCCC6666EEEE22220000DDDDAAAA88886666BBBB00006666AAAA
+ubuntu@ip-172-31-15-26:/mnt/raid/Cloud_PA2$ tail -10 ./input/Test10GB_output.txt 
+~~~uq2k#=U  00000000000000000000000002C06745  99991111DDDD222211110000FFFFEEEEFFFF33337777CCCC2222
+~~~v/0&Qnm  00000000000000000000000004709701  CCCC88883333FFFF00000000000099991111FFFF777744446666
+~~~yKOl:gE  00000000000000000000000002048B4F  CCCC11114444888822226666BBBB888855557777EEEEBBBB0000
+~~~yK^H.il  0000000000000000000000000463D004  44440000FFFF3333999944447777DDDDFFFFAAAA11118888DDDD
+~~~yL;C'XE  00000000000000000000000005B0D211  2222EEEE3333000022221111CCCCFFFF555577774444BBBB6666
+~~~zbA_ Tt  000000000000000000000000007F9F4F  BBBBCCCC666655559999FFFF8888AAAA11116666AAAABBBB0000
+~~~zeO^FEg  00000000000000000000000001E06130  4444CCCCBBBB99992222888855558888CCCCFFFF000011111111
+~~~}GxjWHI  00000000000000000000000000CA1345  777711118888AAAAAAAA22221111BBBB00002222BBBBCCCC2222
+~~~}P;]g0g  000000000000000000000000040DA3E4  4444FFFF444466663333EEEE88888888DDDDEEEE44442222DDDD
+~~~}kU|K<p  00000000000000000000000005E4A0AA  0000666655551111BBBB88889999AAAA55550000333355557777

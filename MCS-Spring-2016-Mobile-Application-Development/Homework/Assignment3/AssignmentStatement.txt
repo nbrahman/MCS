@@ -1,0 +1,33 @@
+Description
+
+In A2 food menu application is used to modify menu items. A3 (this assignment) application is used for end user to play order online. In this exercise, you have to use the startActivityForResult() to lunch the second activity.
+
+1. In the first screen, include two parts, the above parts a menu list. each line represents a dish menu item with its price. 
+
+2. User allow to  select multiple menu items from the menu list. 
+
+3. The second part is the last line of the screen. It includes two buttons, one is called "Play order" and another is "Reset" to remove all selected lines.
+
+4. Once user pressed "Play order" button, the second screen will be opened.
+
+5. In the second screen, the selected items will be displayed with at least the total price of selected items from the first screen.
+
+6. In the second screen, there are two buttons defined. One is called "Confirm order" another one is "Cancel" button.
+
+7. Once "Confirm order" pressed, the first screen will gain focus. The total price will be added into a new line under the "Play ordering" button line.
+
+8. User could continue to select items and play the order. 
+
+9. Once the second screen confirmed the order the amount of the first screen total value will be increased.
+
+10. If the "Cancel" in the second screen, the first screen total will have no change.
+
+11. Students can add any reasonable contents into the screens, but not for fancier, it should be for more user friendly instead.
+
+12. Submit application package with apk file included.
+
+Score
+
+1. Meet all above requirements/description 9 points
+
+2. Shining points impressed to evaluator from end user point of view 1 point

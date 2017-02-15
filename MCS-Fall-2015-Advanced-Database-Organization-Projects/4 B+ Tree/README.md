@@ -1,0 +1,2 @@
+##B+-Tree
+In this assignment we have implemented a B+-Tree Index. The index should be backed up by a page file and pages of the index should be accessed through Buffer Manager. Each node occupies one page. A B+-Tree stores pointer to records (the RID introduced in the Record Manager assignment) index by a keys of a given datatype. Pointers to intermediate nodes are represented by the page number of the page the node is stored in.

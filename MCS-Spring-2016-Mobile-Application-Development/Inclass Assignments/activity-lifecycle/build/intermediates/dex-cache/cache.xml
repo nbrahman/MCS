@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\Inclass_Assignments\activity-lifecycle\app\libs\android-support-v13.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecda966839090a41b29a9239d44bafc06fdadb87">
+        <dex dex="H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\Inclass_Assignments\activity-lifecycle\app\build\intermediates\pre-dexed\debug\android-support-v13_fe72acf56831c616ee8a7c437396ce44f98a3de4.jar" />
+    </item>
+
+</items>

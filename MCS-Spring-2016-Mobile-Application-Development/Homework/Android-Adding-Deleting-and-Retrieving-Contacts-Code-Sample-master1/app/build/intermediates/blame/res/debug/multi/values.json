@@ -1,0 +1,298 @@
+[
+    {
+        "outputFile": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 44,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 44,
+                    "endOffset": 140
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 61,
+                        "endColumn": 44,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 145,
+                    "endColumn": 43,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 43,
+                        "endOffset": 56
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 44,
+                    "endOffset": 229
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 65,
+                        "endColumn": 44,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 234,
+                    "endColumn": 47,
+                    "endOffset": 277
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 47,
+                        "endOffset": 60
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 282,
+                    "endColumn": 50,
+                    "endOffset": 328
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 50,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 333,
+                    "endColumn": 52,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 52,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 50,
+                    "endOffset": 432
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endColumn": 50,
+                        "endOffset": 260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 437,
+                    "endColumn": 37,
+                    "endOffset": 470
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 330,
+                        "endColumn": 37,
+                        "endOffset": 363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 475,
+                    "endColumn": 39,
+                    "endOffset": 510
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 368,
+                        "endColumn": 39,
+                        "endOffset": 403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 515,
+                    "endColumn": 64,
+                    "endOffset": 575
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 265,
+                        "endColumn": 64,
+                        "endOffset": 325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 580,
+                    "endColumn": 57,
+                    "endOffset": 633
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 76,
+                        "endColumn": 58,
+                        "endOffset": 130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 638,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 863
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 136,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 868,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1093
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 651,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1098,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1376
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Homework Assignments\\Android-Adding-Deleting-and-Retrieving-Contacts-Code-Sample-master1\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 367,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 645
+                    }
+                }
+            }
+        ]
+    }
+]

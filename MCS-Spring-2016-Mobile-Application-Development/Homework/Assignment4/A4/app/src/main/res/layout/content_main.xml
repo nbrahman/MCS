@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	tools:context=".MainActivity"
+	android:layout_centerHorizontal="true">
+
+	<ListView
+		android:id="@+id/lvMenu"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginBottom="15dp"
+		android:paddingTop="60dp"
+		android:layout_above="@+id/linLayout">
+	</ListView>
+
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="40dp"
+		android:layout_above="@+id/lblCumulativeOrderValue"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="10dp"
+		android:id="@+id/linLayout">
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/place_order"
+			android:id="@+id/btnPlaceOrder"
+			android:layout_above="@+id/lblCumulativeOrderValue"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/reset"
+			android:id="@+id/btnReset"
+			android:layout_alignTop="@+id/btnPlaceOrder"
+			android:layout_toRightOf="@+id/btnPlaceOrder"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/order_history"
+			android:id="@+id/btnOrderHistory"
+			android:layout_alignTop="@+id/btnReset"
+			android:layout_toRightOf="@+id/btnReset"/>
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Cumulative Order Value: 0"
+		android:textAlignment="viewEnd"
+		android:id="@+id/lblCumulativeOrderValue"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentStart="true"
+		android:textSize="16dp"
+		android:layout_marginLeft="5dp"
+		android:layout_marginBottom="5dp"
+		android:textColor="@android:color/black"/>
+
+</RelativeLayout>

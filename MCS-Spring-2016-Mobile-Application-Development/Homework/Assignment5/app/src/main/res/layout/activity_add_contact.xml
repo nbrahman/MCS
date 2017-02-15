@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content"
+	android:layout_height="200dp"
+	tools:context=".MainActivity"
+	android:nestedScrollingEnabled="true">
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:paddingBottom="@dimen/activity_vertical_margin"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:paddingTop="@dimen/activity_vertical_margin"
+		android:id="@+id/linearLayout"
+		android:background="#fbcd97">
+
+		<TextView
+			android:id="@+id/lblAddContactName"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:text="Name: "
+			android:layout_above="@+id/lblAddContactPhone"
+			android:textSize="15dp"
+			android:textStyle="bold"
+			android:layout_margin="5dp"/>
+
+		<EditText
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtAddContactName"
+			android:layout_above="@+id/lblAddContactPhone"
+			android:layout_alignParentRight="true"
+			android:textSize="15dp"
+			android:layout_margin="5dp"/>
+
+		<TextView
+			android:id="@+id/lblAddContactPhone"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:text="Phone: "
+			android:layout_above="@+id/cancelBtn"
+			android:textStyle="bold"
+			android:layout_margin="5dp"/>
+
+		<EditText
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/txtAddContactPhone"
+			android:layout_alignParentRight="true"
+			android:layout_above="@+id/cancelBtn"
+			android:textSize="15dp"
+			android:layout_margin="5dp"
+			android:inputType="number"/>
+
+		<Button
+			android:layout_width="120dp"
+			android:layout_height="50dp"
+			android:text="Cancel"
+			android:id="@+id/cancelBtn"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true"
+			android:background="#f6f6f6"
+			android:textColor="@color/colorPrimary"
+			android:layout_margin="5dp"/>
+
+		<Button
+			android:layout_width="120dp"
+			android:layout_height="50dp"
+			android:text="Add Contact"
+			android:id="@+id/addMenuBtn"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:background="#f6f6f6"
+			android:textColor="@color/colorPrimary"
+			android:layout_margin="5dp"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	    <EditText
+	        android:id="@+id/myEditTextName"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="New Name"
+	        android:hint="New Name"/>
+
+	    <EditText
+		    android:id="@+id/myEditTextDesc"
+		    android:layout_width="150dp"
+		    android:layout_height="wrap_content"
+		    android:contentDescription="New Description"
+		    android:hint="New Description">
+	        <requestFocus>
+	        </requestFocus>
+	    </EditText>
+	    <EditText
+		    android:id="@+id/myEditTextPrice"
+		    android:layout_width="95dp"
+		    android:layout_height="wrap_content"
+		    android:contentDescription="New Price"
+		    android:hint="New Price">
+	        <requestFocus>
+	        </requestFocus>
+	    </EditText>
+	    <Button
+	        android:id="@+id/btnSubmit"
+	        android:layout_width="50dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:textAlignment="center"
+	        android:text="+">
+	    </Button>
+	</LinearLayout>
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	    <ListView
+	        android:id="@+id/myListView"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        />
+	</LinearLayout>
+</LinearLayout>

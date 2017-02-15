@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Inclass_Assignments\\PA4AD_Ch05_BoadcastIntents\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 64,
+                    "endOffset": 115
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Inclass_Assignments\\PA4AD_Ch05_BoadcastIntents\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endColumn": 64,
+                        "endOffset": 175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 120,
+                    "endColumn": 58,
+                    "endOffset": 174
+                },
+                "from": {
+                    "file": "H:\\Read Drive\\Niks\\IIT\\Spring 2016\\MAD\\Assignments\\Inclass_Assignments\\PA4AD_Ch05_BoadcastIntents\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 58,
+                        "endOffset": 110
+                    }
+                }
+            }
+        ]
+    }
+]

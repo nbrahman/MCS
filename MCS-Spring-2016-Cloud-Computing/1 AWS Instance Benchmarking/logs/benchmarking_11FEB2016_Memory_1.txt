@@ -1,0 +1,92 @@
+Sequential Memory Access Statistics
+Description	Thread 1 Values
+Block Size: 	1 Bytes
+No. of Blocks: 	104857600
+Total Memory Size: 	104857600 Bytes
+Throughput: 	43.3921 MBPS
+Latency: 	0.000024247369766 milliSec
+
+Block Size: 	1024 Bytes
+No. of Blocks: 	102400
+Total Memory Size: 	104857600 Bytes
+Throughput: 	772.2604 MBPS
+Latency: 	0.000001034412384 milliSec
+
+Block Size: 	1048576 Bytes
+No. of Blocks: 	100
+Total Memory Size: 	104857600 Bytes
+Throughput: 	782.8647 MBPS
+Latency: 	0.000000546112061 milliSec
+
+
+
+
+Random Memory Access Statistics
+Description	Thread 1 Values
+Block Size: 	1 Bytes
+No. of Blocks: 	104857600
+Total Memory Size: 	104857600 Bytes
+Throughput: 	 1.3082 MBPS
+Latency: 	0.000573910827637 milliSec
+
+Block Size: 	1024 Bytes
+No. of Blocks: 	102400
+Total Memory Size: 	104857600 Bytes
+Throughput: 	274.6046 MBPS
+Latency: 	0.000002107820511 milliSec
+
+Block Size: 	1048576 Bytes
+No. of Blocks: 	100
+Total Memory Size: 	104857600 Bytes
+Throughput: 	499.7476 MBPS
+Latency: 	0.000000535392761 milliSec
+
+
+
+
+Memory - Sequential Access Statistics
+Description	Thread 1 Values	Thread 2 Values	Final Values
+Block Size: 	1 Bytes	1 Bytes	1 Bytes
+No. of Blocks: 	104857600	104857600	209715200
+Total Memory Size: 	104857600 Bytes	104857600 Bytes	209715200 Bytes
+Throughput: 	21.1829 MBPS	21.2875 MBPS	42.4705 MBPS
+Latency: 	0.000049005937576 milliSec	0.000047824201584 milliSec	0.000048415069580 milliSec
+
+Block Size: 	1024 Bytes	1024 Bytes	1024 Bytes
+No. of Blocks: 	102400	102400	204800
+Total Memory Size: 	104857600 Bytes	104857600 Bytes	209715200 Bytes
+Throughput: 	151.9512 MBPS	152.0249 MBPS	303.9761 MBPS
+Latency: 	0.000003927478790 milliSec	0.000004665327072 milliSec	0.000004296402931 milliSec
+
+Block Size: 	1048576 Bytes	1048576 Bytes	1048576 Bytes
+No. of Blocks: 	100	100	200
+Total Memory Size: 	104857600 Bytes	104857600 Bytes	209715200 Bytes
+Throughput: 	153.7350 MBPS	173.1605 MBPS	326.8955 MBPS
+Latency: 	0.000002321205139 milliSec	0.000002322692871 milliSec	0.000002321949005 milliSec
+
+
+
+
+Memory - Random Access Statistics
+Description	Thread 1 Values	Thread 2 Values	Final Values
+Block Size: 	1 Bytes	1 Bytes	1 Bytes
+No. of Blocks: 	104857600	104857600	209715200
+Total Memory Size: 	104857600 Bytes	104857600 Bytes	209715200 Bytes
+Throughput: 	 0.3092 MBPS	 0.3081 MBPS
+	 0.6173 MBPS
+Latency: 	0.002615004653931 milliSec	0.002616891002655 milliSec	0.002615947828293 milliSec
+
+Block Size: 	1024 Bytes	1024 Bytes	1024 Bytes
+No. of Blocks: 	102400	102400	204800
+Total Memory Size: 	104857600 Bytes	104857600 Bytes	209715200 Bytes
+Throughput: 	49.7483 MBPS	54.0896 MBPS
+	103.8380 MBPS
+Latency: 	0.000009373369217 milliSec	0.000009772596359 milliSec	0.000009572982788 milliSec
+
+Block Size: 	1048576 Bytes	1048576 Bytes	1048576 Bytes
+No. of Blocks: 	100	100	200
+Total Memory Size: 	104857600 Bytes	104857600 Bytes	209715200 Bytes
+Throughput: 	97.1907 MBPS	81.0034 MBPS
+	178.1941 MBPS
+Latency: 	0.000002742481232 milliSec	0.000001543788910 milliSec	0.000002143135071 milliSec
+

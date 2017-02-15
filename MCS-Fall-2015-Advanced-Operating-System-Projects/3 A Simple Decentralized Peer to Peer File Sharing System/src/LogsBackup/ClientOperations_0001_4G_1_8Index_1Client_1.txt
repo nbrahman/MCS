@@ -1,0 +1,19 @@
+Registry for files started at 11/04/2015 6:15:08 PM
+
+Registry for 1 files completed at 11/04/2015 6:15:08 PM
+
+ Time taken for 1 individual Registry is 9mSec
+
+Lookup for files started at 11/04/2015 6:15:08 PM
+
+Lookup for 1 files completed at 11/04/2015 6:15:08 PM
+
+ Time taken for 1 individual Search is 19mSec
+
+Download for files started at 11/04/2015 6:15:08 PM
+
+Download for 1 files completed at 11/04/2015 6:15:34 PM
+
+ Time taken for 1 individual Downloads is 26082mSec
+
+Total Time taken for 1 individual Registry, Search and Downloads is 26110mSec

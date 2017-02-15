@@ -1,0 +1,21 @@
+Description
+
+This assignment will use the A3 assignment for food menu ordering. 
+
+1. Create your own database class by extending SQLiteOpenHelper class with ordered food menu item scheme in it. (Refer to CodeSnippets>Chapter8>PA4AD_Ch08_DatabaseSkeleton sample code.)
+
+2. The ordered food menu item scheme columns might include order id, order time stamp, ordered names (e.g."coke, pizza, burg"), and the total order price for each order.
+
+3. In the first activity, add one more button called "Order history". 
+
+4. In the first activity, once the confirmed order from second activity received, the order will be added to database.
+
+5. Once the "Order history" button clicked, The third activity will be launched with order lists loaded from database.
+
+6. click back key, the third activity screen will be closed and return to the first activity screen.
+
+7. Submit package with apk included.
+
+Scoring
+
+If each order will be saved in db and all history data from db can be displayed on the third activity, it will gain 10 points.

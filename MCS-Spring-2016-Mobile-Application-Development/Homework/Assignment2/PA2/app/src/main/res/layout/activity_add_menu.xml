@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:nestedScrollingEnabled="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="280dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:id="@+id/linearLayout"
+        android:background="#f6f6f6">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_above="@+id/decriptionTextView"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameEditView"
+            android:layout_above="@+id/decriptionTextView"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:id="@+id/decriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_above="@+id/decriptionEditView"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/decriptionEditView"
+            android:layout_above="@+id/priceTextView"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Price:"
+            android:id="@+id/priceTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/priceEditText"
+            android:layout_above="@+id/cancelBtn"
+            android:layout_marginBottom="25dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/priceEditText"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/addMenuBtn"
+            android:layout_marginBottom="15dp"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:id="@+id/cancelBtn"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#f6f6f6"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Add To Menu"
+            android:id="@+id/addMenuBtn"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="#f6f6f6"
+            android:textColor="@color/colorPrimary"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

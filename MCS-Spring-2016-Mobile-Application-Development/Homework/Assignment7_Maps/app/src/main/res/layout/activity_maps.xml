@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:id="@+id/etAddress"
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			android:textSize="12dp"
+			android:text=""
+			android:gravity="right"
+			android:textColor="@android:color/black"
+			android:layout_margin="5dp"
+			android:hint="Address"
+			android:layout_alignParentLeft="true"
+			android:singleLine="true"/>
+
+		<TextView
+			android:id="@+id/lblLatitude"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:textSize="10dp"
+			android:gravity="right"
+			android:textColor="@android:color/black"
+			android:inputType="number|none"
+			android:layout_margin="5dp"
+			android:text="Latitude"
+			android:textAlignment="center"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@+id/etAddress"/>
+
+		<TextView
+			android:id="@+id/lblLongitude"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:textSize="10dp"
+			android:gravity="right"
+			android:textColor="@android:color/black"
+			android:inputType="number|none"
+			android:layout_margin="5dp"
+			android:text="Longitude"
+			android:textAlignment="center"
+			android:layout_toRightOf="@+id/lblLatitude"
+			android:layout_below="@+id/etAddress"/>
+
+		<TextView
+			android:id="@+id/tvLatitude"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:textSize="12dp"
+			android:text=""
+			android:gravity="right"
+			android:textColor="@android:color/black"
+			android:inputType="number|none"
+			android:layout_margin="5dp"
+			android:hint="Latitude"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@+id/lblLatitude"/>
+
+		<TextView
+			android:id="@+id/tvLongitude"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:textSize="12dp"
+			android:text=""
+			android:gravity="right"
+			android:textColor="@android:color/black"
+			android:inputType="number|none"
+			android:layout_margin="5dp"
+			android:hint="Longitude"
+			android:layout_toRightOf="@+id/tvLatitude"
+			android:layout_below="@+id/lblLongitude"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/etAddress"
+			android:text="Submit"
+			android:textSize="12dp"
+			android:id="@+id/btnSubmit"/>
+
+	</RelativeLayout>
+
+	<fragment
+		android:id="@+id/map"
+		android:name="com.google.android.gms.maps.SupportMapFragment"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:map="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context="com.cs442.nbrahman.assignment7_maps.MapsActivity"/>
+</LinearLayout>

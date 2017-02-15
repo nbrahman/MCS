@@ -1,0 +1,22 @@
+
+
+Assignment 2: UI Control & Event Listener
+
+Description
+
+1. Create a food menu activity to list at least 5 menu items. Each item represents a dish or a meal by using a name, price, and so on.
+
+2. User click one menu item, a toast message will be prompted.
+
+3. The message includes the selected food brief description, such as cooking materials, spicy or not, and so on.
+
+4. User long press on one menu item, the selected menu item will be removed with toast message like "Hamburg removed from menu".
+
+5. In the menu screen, one line could be used to allow user to add one menu item (refer to to do list sample code in slides.).
+
+6. Submit your zipped project with your .apk included.
+
+Scores (total 10 points)
+
+Meet all basic requirements above will got 9 points, impressive UI look and feel add 1 point.
+

@@ -1,0 +1,41 @@
+Description
+
+This assignment will use an application to practice the service classe with notification involved
+
+1. Application Main Screen
+
+The main screen should include:
+
+1.1 EditView which allow user to enter any plain text.
+
+1.2 Button1 which is used to start your service
+
+1.3 Button2 which is used to stop your service
+
+2. Service class
+
+2.1 Create your own service. Your service will generate a counting number every 1 second. 
+
+2.2 If user press the button1, your service will be started with the counter start number from EditView. If EditView entered text is not a number it will start from 1.
+
+2.3 If user press the button2, your service will be stopped.
+
+2.4 Once your service is started, every 10 seconds, user will get a notification with a sound and vibration
+
+2.5 In the notification details, it shows the current counting number.
+
+2.6 When the application is closed, if the service is not stopped, the notification sound should be continued. 
+
+Deliverables
+
+Whole project with apk included.
+
+Scoring
+
+Total 10 points
+
+-- If identical service classes code found, both students will get -5 points
+
+-- Complete above requirements +9 points
+
+-- Coding, comments and logs are impressive 1 point

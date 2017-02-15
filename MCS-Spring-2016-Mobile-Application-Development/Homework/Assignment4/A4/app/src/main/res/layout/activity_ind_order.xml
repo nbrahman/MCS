@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="240dp">
+
+	<TextView
+		android:id="@+id/lblOrderID"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:text="Order #: "
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="5dp"/>
+
+	<TextView
+		android:id="@+id/txtOrderID"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/lblOrderID"
+		android:text="Order No"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="5dp"/>
+
+	<TextView
+		android:id="@+id/lblDateTime"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/txtDateTime"
+		android:text="Date Time: "
+		android:textColor="#000000"
+		android:textSize="12dp"
+		android:layout_margin="5dp"/>
+
+	<TextView
+		android:id="@+id/txtDateTime"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:text="Date time"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		android:layout_margin="5dp"/>
+
+	<!--<TextView
+		android:id="@+id/lblSrNo"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:textSize="12dp"
+		android:text="SrNo"
+		android:gravity="center"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="14dp"
+		android:layout_marginRight="15dp"
+		android:paddingTop="25dp"/>
+
+	<TextView
+		android:id="@+id/lblName"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/lblSrNo"
+		android:textSize="12dp"
+		android:text="Name"
+		android:gravity="left"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="14dp"
+		android:layout_marginRight="15dp"
+		android:paddingTop="25dp"/>
+
+	<TextView
+		android:id="@+id/lblPricePerUnit"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/lblQty"
+		android:layout_marginLeft="5dp"
+		android:layout_marginBottom="10dp"
+		android:textSize="12dp"
+		android:text="Price"
+		android:gravity="right"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="14dp"
+		android:layout_marginRight="15dp"
+		android:paddingTop="25dp"/>
+
+	<TextView
+		android:id="@+id/lblQty"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/lblAmount"
+		android:layout_marginLeft="5dp"
+		android:layout_marginBottom="10dp"
+		android:textSize="12dp"
+		android:text="Qty"
+		android:gravity="right"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="14dp"
+		android:layout_marginRight="15dp"
+		android:paddingTop="25dp"/>
+
+	<TextView
+		android:id="@+id/lblAmount"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginBottom="10dp"
+		android:textSize="12dp"
+		android:text="Amount"
+		android:gravity="right"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="14dp"
+		android:layout_marginRight="15dp"
+		android:layout_alignParentRight="true"
+		android:paddingTop="25dp"/>
+
+	<ListView
+		android:id="@+id/lvOrderedItems"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:layout_above="@+id/lblTotal"
+		android:layout_below="@+id/lblAmount"/>-->
+
+	<TextView
+		android:id="@+id/txtOrderedItems"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_above="@+id/lblTotal"
+		android:lines="9"/>
+
+	<!--<TableLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_margin="15dp"
+		android:id="@+id/tblOrderedItems">
+
+	<TableRow
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView
+			android:id="@+id/lblSrNo"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:textSize="12dp"
+			android:text="SrNo"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:layout_margin="5dp"
+			android:padding="5dp"/>
+
+		<TextView
+			android:id="@+id/lblName"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/lblSrNo"
+			android:textSize="12dp"
+			android:text="Name"
+			android:gravity="left"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:layout_margin="5dp"
+			android:padding="5dp"/>
+
+		<TextView
+			android:id="@+id/lblPricePerUnit"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toLeftOf="@+id/lblQty"
+			android:layout_marginLeft="5dp"
+			android:layout_marginBottom="10dp"
+			android:textSize="12dp"
+			android:text="Price"
+			android:gravity="right"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:layout_margin="5dp"
+			android:padding="5dp"/>
+
+		<TextView
+			android:id="@+id/lblQty"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toLeftOf="@+id/lblAmount"
+			android:layout_marginLeft="5dp"
+			android:layout_marginBottom="10dp"
+			android:textSize="12dp"
+			android:text="Qty"
+			android:gravity="right"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:layout_margin="5dp"
+			android:padding="5dp"/>
+
+		<TextView
+			android:id="@+id/lblAmount"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginBottom="10dp"
+			android:textSize="12dp"
+			android:text="Amount"
+			android:gravity="right"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:layout_margin="5dp"
+			android:layout_alignParentRight="true"
+			android:paddingTop="5dp"/>
+
+	</TableRow>
+
+</TableLayout>-->
+
+	<TextView
+		android:id="@+id/lblTotal"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/txtTotal"
+		android:layout_alignBaseline="@+id/txtTotal"
+		android:text="Total: "
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="3dp"/>
+
+	<TextView
+		android:id="@+id/txtTotal"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/txtDiscount"
+		android:layout_alignParentRight="true"
+		android:text="Total"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="3dp"/>
+
+	<TextView
+		android:id="@+id/lblDiscount"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/txtDiscount"
+		android:layout_alignBaseline="@+id/txtDiscount"
+		android:text="Discount: "
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="3dp"/>
+
+	<TextView
+		android:id="@+id/txtDiscount"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/txtTaxes"
+		android:layout_alignParentRight="true"
+		android:text="Disc"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="3dp"/>
+
+	<TextView
+		android:id="@+id/lblTaxes"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/txtTaxes"
+		android:layout_alignBaseline="@+id/txtTaxes"
+		android:text="Taxes: "
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="3dp"/>
+
+	<TextView
+		android:id="@+id/txtTaxes"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/txtFinalOrderValue"
+		android:layout_alignParentRight="true"
+		android:text="Taxes"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="3dp"/>
+
+	<TextView
+		android:id="@+id/lblFinalOrderValue"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/txtFinalOrderValue"
+		android:layout_alignParentBottom="true"
+		android:text="Final Order Value: "
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="3dp"/>
+
+	<TextView
+		android:id="@+id/txtFinalOrderValue"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:text="FinOrdVal"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_margin="3dp"/>
+
+</RelativeLayout>

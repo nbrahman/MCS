@@ -1,0 +1,638 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:2:1-149:12
+	package
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:3:3-32
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:5:3-31
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:4:3-27
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:7:3-9:36
+MERGED from [com.google.android.gms:play-services:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:9:5-34
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:8:5-30
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:10:3-76
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:10:20-74
+uses-permission#android.permission.INTERNET
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:11:3-64
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:11:20-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:13:3-76
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:13:20-74
+uses-feature#0x00020000
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:19:3-21:30
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:20:5-37
+	android:required
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:21:5-28
+application
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:23:3-148:17
+MERGED from [com.google.android.gms:play-services:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:25:5-39
+	android:supportsRtl
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:26:5-31
+	android:hardwareAccelerated
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:27:5-39
+	android:icon
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:24:5-41
+meta-data#com.google.android.geo.API_KEY
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:38:5-39:62
+	android:value
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:39:5-60
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:38:16-61
+meta-data#com.google.android.gms.version
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:40:5-42:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:42:13-66
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:41:13-58
+activity#com.example.mapdemo.MainActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:43:5-48:16
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:43:15-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:44:7-47:23
+action#android.intent.action.MAIN
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:45:9-60
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:45:17-58
+category#android.intent.category.LAUNCHER
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:46:9-68
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:46:19-66
+activity#com.example.mapdemo.LegalInfoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:49:5-51:43
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:51:7-41
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:50:7-40
+activity#com.example.mapdemo.BasicMapDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:52:5-54:53
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:54:7-51
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:53:7-43
+activity#com.example.mapdemo.CameraDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:55:5-57:50
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:57:7-48
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:56:7-41
+activity#com.example.mapdemo.CircleDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:58:5-60:50
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:60:7-48
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:59:7-41
+activity#com.example.mapdemo.EventsDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:61:5-63:50
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:63:7-48
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:62:7-41
+activity#com.example.mapdemo.GroundOverlayDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:64:5-66:58
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:66:7-56
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:65:7-48
+activity#com.example.mapdemo.IndoorDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:67:5-69:50
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:69:7-48
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:68:7-41
+activity#com.example.mapdemo.LayersDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:70:5-72:50
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:72:7-48
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:71:7-41
+activity#com.example.mapdemo.LiteDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:73:5-75:48
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:75:7-46
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:74:7-39
+activity#com.example.mapdemo.LiteListDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:76:5-78:53
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:78:7-51
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:77:7-43
+activity#com.example.mapdemo.LocationSourceDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:79:5-81:59
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:81:7-57
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:80:7-49
+activity#com.example.mapdemo.MapInPagerDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:82:5-84:56
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:84:7-54
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:83:7-45
+activity#com.example.mapdemo.MarkerDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:85:5-87:50
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:87:7-48
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:86:7-41
+activity#com.example.mapdemo.MultiMapDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:88:5-90:53
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:90:7-51
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:89:7-43
+activity#com.example.mapdemo.MyLocationDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:91:5-93:55
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:93:7-53
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:92:7-45
+activity#com.example.mapdemo.OptionsDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:94:5-96:51
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:96:7-49
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:95:7-42
+activity#com.example.mapdemo.PolygonDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:97:5-99:51
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:99:7-49
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:98:7-42
+activity#com.example.mapdemo.PolylineDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:100:5-102:52
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:102:7-50
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:101:7-43
+activity#com.example.mapdemo.ProgrammaticDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:103:5-105:56
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:105:7-54
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:104:7-47
+activity#com.example.mapdemo.RawMapViewDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:106:5-108:56
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:108:7-54
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:107:7-45
+activity#com.example.mapdemo.RetainMapDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:109:5-111:54
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:111:7-52
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:110:7-44
+activity#com.example.mapdemo.SaveStateDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:112:5-114:54
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:114:7-52
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:113:7-44
+activity#com.example.mapdemo.SnapshotDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:115:5-117:52
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:117:7-50
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:116:7-43
+activity#com.example.mapdemo.SplitStreetViewPanoramaAndMapDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:118:5-120:78
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:120:7-76
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:119:7-64
+activity#com.example.mapdemo.StreetViewPanoramaBasicDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:121:5-123:70
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:123:7-68
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:122:7-58
+activity#com.example.mapdemo.StreetViewPanoramaEventsDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:124:5-126:71
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:126:7-69
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:125:7-59
+activity#com.example.mapdemo.StreetViewPanoramaNavigationDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:127:5-129:75
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:129:7-73
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:128:7-63
+activity#com.example.mapdemo.StreetViewPanoramaOptionsDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:130:5-132:72
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:132:7-70
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:131:7-60
+activity#com.example.mapdemo.StreetViewPanoramaViewDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:133:5-135:69
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:135:7-67
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:134:7-57
+activity#com.example.mapdemo.TileCoordinateDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:136:5-138:59
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:138:7-57
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:137:7-49
+activity#com.example.mapdemo.TileOverlayDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:139:5-141:56
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:141:7-54
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:140:7-46
+activity#com.example.mapdemo.UiSettingsDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:142:5-144:55
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:144:7-53
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:143:7-45
+activity#com.example.mapdemo.VisibleRegionDemoActivity
+ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:145:5-147:58
+	android:label
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:147:7-56
+	android:name
+		ADDED from H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\src\main\AndroidManifest.xml:146:7-48
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:21:19-72
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:29:13-62
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:21:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:22-65
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:28:7-31:37
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:33:7-39:18
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:41:7-44:37
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] H:\Read Drive\Niks\IIT\Spring 2016\MAD\Assignments\InClass\maps\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:42:11-82

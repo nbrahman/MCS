@@ -1,0 +1,220 @@
+//App Initialization & Startup
+02-05 23:13:25.944 D/nbrahman(10815):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-05 23:13:25.945 D/nbrahman(10815):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-05 23:13:25.945 D/nbrahman(10815):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+
+//Start B Activity
+02-05 23:14:52.068 D/nbrahman(10815):  <4> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code after the "Start B" button is clicked
+02-05 23:14:52.146 D/nbrahman(10815):  <1> - Activity B:onCreate()       //Activity B created for the first time after the "Start B" button is clicked
+02-05 23:14:52.150 D/nbrahman(10815):  <2> - Activity B:onStart()        //Activity B becomes visible to the user for the first time after the "Start B" button is clicked
+02-05 23:14:52.151 D/nbrahman(10815):  <3> - Activity B:onResume()       //Activity B is ready for user interaction after the "Start B" button is clicked
+02-05 23:14:52.939 D/nbrahman(10815):  <5> - Activity A:onStop()         //Activity A becomes invisible after Activity B gets focus due to "Start B" button click
+
+//Start C Activity
+02-05 23:14:55.029 D/nbrahman(10815):  <4> - Activity B:onPause()        //Activity B will not be able to receive any input and will not be able to execute any code after the "Start C" button is clicked
+02-05 23:14:55.128 D/nbrahman(10815):  <1> - Activity C:onCreate()       //Activity C created for the first time after the "Start C" button is clicked
+02-05 23:14:55.130 D/nbrahman(10815):  <2> - Activity C:onStart()        //Activity C becomes visible to the user for the first time after the "Start C" button is clicked
+02-05 23:14:55.130 D/nbrahman(10815):  <3> - Activity C:onResume()       //Activity C is ready for user interaction after the "Start C" button is clicked
+02-05 23:14:56.068 D/nbrahman(10815):  <5> - Activity B:onStop()         //Activity B becomes invisible after Activity C gets focus due to "Start C" button click
+
+//Dialog Box popup
+02-05 23:14:57.048 D/nbrahman(10815):  <4> - Activity C:onPause()        //Activity C will not be able to receive any input and will not be able to execute any code after the "Dialog" button is clicked
+
+//Stack soft key click
+02-05 23:15:01.859 D/nbrahman(10815):  <5> - Activity C:onStop()         //Activity C becomes invisible after "Recent Apps" gets focus due to "Stack" soft key click
+
+//Back key click
+02-05 23:15:05.475 D/nbrahman(10815):  <6> - Activity C:onRestart()      //Activity C is restarted after the App gets back the focus due to Back key click
+02-05 23:15:05.478 D/nbrahman(10815):  <7> - Activity C:onStart()        //Activity C becomes visible to the user again after the "Back" key is clicked
+
+//Dialog Box Close Button click
+02-05 23:15:08.446 D/nbrahman(10815):  <8> - Activity C:onResume()       //Activity C is ready for user interaction after the "Close" button from Dialog is clicked
+
+//Start A Activity
+02-05 23:15:10.469 D/nbrahman(10815):  <6> - Activity B:onDestroy()      //Activity B is destroyed after the "Close" button from Dialog is clicked
+02-05 23:15:10.494 D/nbrahman(10815):  <9> - Activity C:onPause()        //Activity C will not be able to receive any input and will not be able to execute any code after the "Start A" button is clicked
+02-05 23:15:10.511 D/nbrahman(10815):  <6> - Activity A:onRestart()      //Activity A is restarted after the "Start A" button is clicked
+02-05 23:15:10.513 D/nbrahman(10815):  <7> - Activity A:onStart()        //Activity A becomes visible to the user again after the "Start A" button is clicked
+02-05 23:15:10.514 D/nbrahman(10815):  <8> - Activity A:onResume()       //Activity A is again ready for user interaction after the "Start A" button is clicked
+02-05 23:15:11.109 D/nbrahman(10815):  <10> - Activity C:onStop()        //Activity C becomes invisible after Activity A gets focus due to "Start A" button click
+02-05 23:15:11.109 D/nbrahman(10815):  <11> - Activity C:onDestroy()     //Activity C is destroyed after Activity A gets focus due to "Start A" button click
+
+//Home soft key
+02-05 23:15:24.554 D/nbrahman(10815):  <9> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code after the "Home" soft key is clicked
+02-05 23:15:25.554 D/nbrahman(10815):  <10> - Activity A:onStop()        //Activity A becomes invisible due to "Home" soft key click
+
+//App Relaunch
+02-05 23:15:37.889 D/nbrahman(10815):  <11> - Activity A:onRestart()     //Activity A is restarted after the App is launched is again
+02-05 23:15:37.907 D/nbrahman(10815):  <12> - Activity A:onStart()       //Activity A becomes visible to the user again after the App is launched is again
+02-05 23:15:37.908 D/nbrahman(10815):  <13> - Activity A:onResume()      //Activity A is again ready for user interaction after the App is launched is again
+
+//Start B Activity
+02-05 23:15:43.240 D/nbrahman(10815):  <14> - Activity A:onPause()       //Activity A will not be able to receive any input and will not be able to execute any code after the "Start B" button is clicked
+02-05 23:15:43.339 D/nbrahman(10815):  <1> - Activity B:onCreate()       //Activity B created for the first time after the "Start B" button is clicked
+02-05 23:15:43.341 D/nbrahman(10815):  <2> - Activity B:onStart()        //Activity B becomes visible to the user for the first time after the "Start B" button is clicked
+02-05 23:15:43.358 D/nbrahman(10815):  <3> - Activity B:onResume()       //Activity B is ready for user interaction after the "Start B" button is clicked
+02-05 23:15:44.350 D/nbrahman(10815):  <15> - Activity A:onStop()        //Activity A becomes invisible after the "Start B" button is clicked
+
+//Back key click
+02-05 23:15:46.283 D/nbrahman(10815):  <4> - Activity B:onPause()        //Activity B will not be able to receive any input and will not be able to execute any code due to Back key click from Activity B screen
+02-05 23:15:46.297 D/nbrahman(10815):  <16> - Activity A:onRestart()     //Activity A is restarted due to Back key click from Activity B screen
+02-05 23:15:46.299 D/nbrahman(10815):  <17> - Activity A:onStart()       //Activity A becomes visible to the user due to Back key click from Activity B screen
+02-05 23:15:46.300 D/nbrahman(10815):  <18> - Activity A:onResume()      //Activity A is again ready for user interaction due to Back key click from Activity B screen
+02-05 23:15:46.876 D/nbrahman(10815):  <5> - Activity B:onStop()         //Activity B becomes invisible after Activity A gets focus due to Back key click from Activity B screen
+02-05 23:15:46.876 D/nbrahman(10815):  <6> - Activity B:onDestroy()      //Activity B is destroyed due to Back key click from Activity B screen
+
+//Back key click
+02-05 23:15:48.374 D/nbrahman(10815):  <19> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code due to Back key click from Activity A screen
+02-05 23:15:49.157 D/nbrahman(10815):  <20> - Activity A:onStop()         //Activity A becomes invisible due to Back key click from Activity A screen
+02-05 23:15:49.157 D/nbrahman(10815):  <21> - Activity A:onDestroy()      //Activity A is destroyed due to Back key click from Activity A screen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Minimum User Operations (Shortest Path) for onRestart() for Activity A
+Home Key click -> App Relaunch
+02-06 10:23:50.420 D/nbrahman(31643):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-06 10:23:50.420 D/nbrahman(31643):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-06 10:23:50.420 D/nbrahman(31643):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+02-06 10:24:00.830 D/nbrahman(31643):  <4> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code due to "Home" soft key click
+02-06 10:24:01.100 D/nbrahman(31643):  <5> - Activity A:onStop()         //Activity A becomes invisible after Activity B gets focus due to "Home" soft key click
+02-06 10:24:07.405 D/nbrahman(31643):  <6> - Activity A:onRestart()      //Activity A is restarted after the App is launched is again
+02-06 10:24:07.420 D/nbrahman(31643):  <7> - Activity A:onStart()        //Activity A becomes visible to the user again after the App is launched is again
+02-06 10:24:07.420 D/nbrahman(31643):  <8> - Activity A:onResume()       //Activity A is again ready for user interaction after the App is launched is again
+02-06 10:24:35.825 D/nbrahman(31643):  <9> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code
+02-06 10:24:35.840 D/nbrahman(31643):  <10> - Activity A:onStop()        //Activity A becomes invisible
+
+
+Start B Activity -> Back Key click
+02-06 10:39:52.900 D/nbrahman(31975):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-06 10:39:52.900 D/nbrahman(31975):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-06 10:39:52.900 D/nbrahman(31975):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+02-06 10:39:55.830 D/nbrahman(31975):  <4> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code after the "Start B" button is clicked
+02-06 10:39:55.905 D/nbrahman(31975):  <1> - Activity B:onCreate()       //Activity B created for the first time after the "Start B" button is clicked
+02-06 10:39:55.905 D/nbrahman(31975):  <2> - Activity B:onStart()        //Activity B becomes visible to the user for the first time after the "Start B" button is clicked
+02-06 10:39:55.905 D/nbrahman(31975):  <3> - Activity B:onResume()       //Activity B is ready for user interaction after the "Start B" button is clicked
+02-06 10:39:56.175 D/nbrahman(31975):  <5> - Activity A:onStop()         //Activity A becomes invisible after Activity B gets focus due to "Start B" button click
+02-06 10:40:01.815 D/nbrahman(31975):  <4> - Activity B:onPause()        //Activity B will not be able to receive any input and will not be able to execute any code due to Back key click from Activity B screen
+02-06 10:40:01.835 D/nbrahman(31975):  <6> - Activity A:onRestart()      //Activity A is restarted due to Back key click from Activity B screen
+02-06 10:40:01.835 D/nbrahman(31975):  <7> - Activity A:onStart()        //Activity A becomes visible to the user due to Back key click from Activity B screen
+02-06 10:40:01.835 D/nbrahman(31975):  <8> - Activity A:onResume()       //Activity A is again ready for user interaction due to Back key click from Activity B screen
+02-06 10:40:02.035 D/nbrahman(31975):  <5> - Activity B:onStop()         //Activity B becomes invisible after Activity A gets focus due to Back key click from Activity B screen
+02-06 10:40:02.035 D/nbrahman(31975):  <6> - Activity B:onDestroy()      //Activity B is destroyed due to Back key click from Activity B screen
+
+
+Start B Activity -> Finish B Activity
+02-06 10:38:41.880 D/nbrahman(31155):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-06 10:38:41.880 D/nbrahman(31155):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-06 10:38:41.880 D/nbrahman(31155):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+02-06 10:38:44.850 D/nbrahman(31155):  <4> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code after the "Start B" button is clicked
+02-06 10:38:44.900 D/nbrahman(31155):  <1> - Activity B:onCreate()       //Activity B is created after the "Start B" button is clicked
+02-06 10:38:44.905 D/nbrahman(31155):  <2> - Activity B:onStart()        //Activity B becomes visible to the user after the "Start B" button is clicked
+02-06 10:38:44.905 D/nbrahman(31155):  <3> - Activity B:onResume()       //Activity B is ready for user interaction after the "Start B" button is clicked
+02-06 10:38:45.180 D/nbrahman(31155):  <5> - Activity A:onStop()         //Activity A becomes invisible after Activity B gets focus after the "Start B" button is clicked
+02-06 10:38:47.385 D/nbrahman(31155):  <4> - Activity B:onPause()        //Activity B will not be able to receive any input and will not be able to execute any code after the "Finish B" button is clicked
+02-06 10:38:47.425 D/nbrahman(31155):  <6> - Activity A:onRestart()      //Activity A is restarted after the "Finish B" button is clicked
+02-06 10:38:47.425 D/nbrahman(31155):  <7> - Activity A:onStart()        //Activity A becomes visible to the user again after the "Finish B" button is clicked
+02-06 10:38:47.425 D/nbrahman(31155):  <8> - Activity A:onResume()       //Activity A is again ready for user interaction after the "Finish B" button is clicked
+02-06 10:38:47.600 D/nbrahman(31155):  <5> - Activity B:onStop()         //Activity B becomes invisible after Activity A gets focus due to "Finish B" button click
+02-06 10:38:47.600 D/nbrahman(31155):  <6> - Activity B:onDestroy()      //Activity B is destroyed after Activity A gets focus due to "Finish B" button click
+
+
+Start C Activity -> Finish C Activity
+02-06 10:36:42.620 D/nbrahman(29508):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-06 10:36:42.620 D/nbrahman(29508):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-06 10:36:42.625 D/nbrahman(29508):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+02-06 10:36:48.205 D/nbrahman(29508):  <4> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code after the "Start C" button is clicked
+02-06 10:36:48.330 D/nbrahman(29508):  <1> - Activity C:onCreate()       //Activity C is created after the "Start C" button is clicked
+02-06 10:36:48.330 D/nbrahman(29508):  <2> - Activity C:onStart()        //Activity C becomes visible to the user after the "Start C" button is clicked
+02-06 10:36:48.330 D/nbrahman(29508):  <3> - Activity C:onResume()       //Activity C is ready for user interaction after the "Start C" button is clicked
+02-06 10:36:48.660 D/nbrahman(29508):  <5> - Activity A:onStop()         //Activity A becomes invisible after Activity C gets focus after the "Start C" button is clicked
+02-06 10:36:50.950 D/nbrahman(29508):  <4> - Activity C:onPause()        //Activity C will not be able to receive any input and will not be able to execute any code after the "Finish C" button is clicked
+02-06 10:36:50.985 D/nbrahman(29508):  <6> - Activity A:onRestart()      //Activity A is restarted after the "Finish C" button is clicked
+02-06 10:36:50.985 D/nbrahman(29508):  <7> - Activity A:onStart()        //Activity A becomes visible to the user again after the "Finish C" button is clicked
+02-06 10:36:50.985 D/nbrahman(29508):  <8> - Activity A:onResume()       //Activity A is again ready for user interaction after the "Finish C" button is clicked
+02-06 10:36:51.200 D/nbrahman(29508):  <5> - Activity C:onStop()         //Activity c becomes invisible after Activity A gets focus due to "Finish C" button click
+02-06 10:36:51.205 D/nbrahman(29508):  <6> - Activity C:onDestroy()      //Activity c is destroyed after Activity A gets focus due to "Finish C" button click
+
+
+Start C Activity -> Back Key click
+02-06 10:35:04.945 D/nbrahman(28285):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-06 10:35:04.945 D/nbrahman(28285):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-06 10:35:04.945 D/nbrahman(28285):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+02-06 10:35:07.685 D/nbrahman(28285):  <4> - Activity A:onPause()	     //Activity A will not be able to receive any input and will not be able to execute any code after the "Start C" button is clicked
+02-06 10:35:07.760 D/nbrahman(28285):  <1> - Activity C:onCreate()	     //Activity C created for the first time after the "Start C" button is clicked
+02-06 10:35:07.765 D/nbrahman(28285):  <2> - Activity C:onStart()	     //Activity C becomes visible to the user for the first time after the "Start C" button is clicked
+02-06 10:35:07.765 D/nbrahman(28285):  <3> - Activity C:onResume()	     //Activity C is ready for user interaction after the "Start C" button is clicked
+02-06 10:35:08.045 D/nbrahman(28285):  <5> - Activity A:onStop()	     //Activity A becomes invisible after Activity C gets focus due to "Start C" button click
+02-06 10:35:20.455 D/nbrahman(28285):  <4> - Activity C:onPause()	     //Activity C will not be able to receive any input and will not be able to execute any code due to Back key click from Activity C screen
+02-06 10:35:20.480 D/nbrahman(28285):  <6> - Activity A:onRestart()	     //Activity A is restarted due to Back key click from Activity C screen
+02-06 10:35:20.480 D/nbrahman(28285):  <7> - Activity A:onStart()	     //Activity A becomes visible to the user due to Back key click from Activity C screen
+02-06 10:35:20.480 D/nbrahman(28285):  <8> - Activity A:onResume()	     //Activity A is again ready for user interaction due to Back key click from Activity C screen
+02-06 10:35:20.660 D/nbrahman(28285):  <5> - Activity C:onStop()	     //Activity C becomes invisible after Activity A gets focus due to Back key click from Activity C screen
+02-06 10:35:20.660 D/nbrahman(28285):  <6> - Activity C:onDestroy()	     //Activity C is destroyed due to Back key click from Activity C screen
+
+
+Stack soft key click -> Back Key click
+02-06 10:33:19.230 D/nbrahman(26777):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-06 10:33:19.230 D/nbrahman(26777):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-06 10:33:19.235 D/nbrahman(26777):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+02-06 10:33:22.395 D/nbrahman(26777):  <4> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code due to "Stack" soft key click
+02-06 10:33:22.435 D/nbrahman(26777):  <5> - Activity A:onStop()         //Activity A becomes invisible after "Recent Apps" gets focus due to "Stack" soft key click
+02-06 10:33:24.520 D/nbrahman(26777):  <6> - Activity A:onRestart()      //Activity A is restarted due to Back key click from "Recent Apps" screen
+02-06 10:33:24.525 D/nbrahman(26777):  <7> - Activity A:onStart()        //Activity A becomes visible to the user due to Back key click from "Recent Apps" screen
+02-06 10:33:24.525 D/nbrahman(26777):  <8> - Activity A:onResume()       //Activity A is again ready for user interaction due to Back key click from "Recent Apps" screen
+
+
+Start B Activity -> Start A Activity
+02-06 10:30:07.760 D/nbrahman(24074):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-06 10:30:07.765 D/nbrahman(24074):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-06 10:30:07.765 D/nbrahman(24074):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+02-06 10:30:10.210 D/nbrahman(24074):  <4> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code after the "Start B" button is clicked
+02-06 10:30:10.285 D/nbrahman(24074):  <1> - Activity B:onCreate()       //Activity B created for the first time after the "Start B" button is clicked
+02-06 10:30:10.285 D/nbrahman(24074):  <2> - Activity B:onStart()        //Activity B becomes visible to the user for the first time after the "Start B" button is clicked
+02-06 10:30:10.285 D/nbrahman(24074):  <3> - Activity B:onResume()       //Activity B is ready for user interaction after the "Start B" button is clicked
+02-06 10:30:10.590 D/nbrahman(24074):  <5> - Activity A:onStop()         //Activity A becomes invisible after Activity B gets focus due to "Start B" button click
+02-06 10:30:12.380 D/nbrahman(24074):  <4> - Activity B:onPause()        //Activity B will not be able to receive any input and will not be able to execute any code after the "Start A" button is clicked
+02-06 10:30:12.400 D/nbrahman(24074):  <6> - Activity A:onRestart()      //Activity A is restarted after the "Start A" button is clicked
+02-06 10:30:12.405 D/nbrahman(24074):  <7> - Activity A:onStart()        //Activity A becomes visible to the user again after the "Start A" button is clicked
+02-06 10:30:12.405 D/nbrahman(24074):  <8> - Activity A:onResume()       //Activity A is again ready for user interaction after the "Start A" button is clicked
+02-06 10:30:12.610 D/nbrahman(24074):  <5> - Activity B:onStop()         //Activity B becomes invisible after Activity A gets focus due to "Start A" button click
+02-06 10:30:12.610 D/nbrahman(24074):  <6> - Activity B:onDestroy()      //Activity B is destroyed after Activity A gets focus due to "Start A" button click
+
+
+Start C Activity -> Start A Activity
+02-06 10:28:43.350 D/nbrahman(23002):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-06 10:28:43.350 D/nbrahman(23002):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-06 10:28:43.350 D/nbrahman(23002):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+02-06 10:28:45.605 D/nbrahman(23002):  <4> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code after the "Start C" button is clicked
+02-06 10:28:45.705 D/nbrahman(23002):  <1> - Activity C:onCreate()       //Activity C created for the first time after the "Start C" button is clicked
+02-06 10:28:45.705 D/nbrahman(23002):  <2> - Activity C:onStart()        //Activity C becomes visible to the user for the first time after the "Start C" button is clicked
+02-06 10:28:45.705 D/nbrahman(23002):  <3> - Activity C:onResume()       //Activity C is ready for user interaction after the "Start C" button is clicked
+02-06 10:28:46.080 D/nbrahman(23002):  <5> - Activity A:onStop()         //Activity A becomes invisible after Activity C gets focus due to "Start C" button click
+02-06 10:28:47.500 D/nbrahman(23002):  <4> - Activity C:onPause()        //Activity C will not be able to receive any input and will not be able to execute any code after the "Start A" button is clicked
+02-06 10:28:47.530 D/nbrahman(23002):  <6> - Activity A:onRestart()      //Activity A is restarted after the "Start A" button is clicked
+02-06 10:28:47.530 D/nbrahman(23002):  <7> - Activity A:onStart()        //Activity A becomes visible to the user again after the "Start A" button is clicked
+02-06 10:28:47.530 D/nbrahman(23002):  <8> - Activity A:onResume()       //Activity A is again ready for user interaction after the "Start A" button is clicked
+02-06 10:28:47.715 D/nbrahman(23002):  <5> - Activity C:onStop()         //Activity C becomes invisible after Activity A gets focus due to "Start A" button click
+02-06 10:28:47.715 D/nbrahman(23002):  <6> - Activity C:onDestroy()      //Activity C is destroyed after Activity A gets focus due to "Start A" button click
+
+
+Stack soft key click -> Stack soft key click
+02-06 10:26:12.305 D/nbrahman(20780):  <1> - Activity A:onCreate()       //Activity A created for the first time as startup activity while App is launched
+02-06 10:26:12.305 D/nbrahman(20780):  <2> - Activity A:onStart()        //Activity A becomes visible to the user for the first time while App is launched
+02-06 10:26:12.310 D/nbrahman(20780):  <3> - Activity A:onResume()       //Activity A is ready for user interaction after the App is launched
+02-06 10:26:17.890 D/nbrahman(20780):  <4> - Activity A:onPause()        //Activity A will not be able to receive any input and will not be able to execute any code due to "Stack" soft key click
+02-06 10:26:17.920 D/nbrahman(20780):  <5> - Activity A:onStop()         //Activity A becomes invisible after "Recent Apps" gets focus due to "Stack" soft key click
+02-06 10:26:26.065 D/nbrahman(20780):  <6> - Activity A:onRestart()      //Activity A is restarted due to "Stack" soft key click from "Recent Apps" screen
+02-06 10:26:26.070 D/nbrahman(20780):  <7> - Activity A:onStart()        //Activity A becomes visible to the user due to "Stack" soft key click from "Recent Apps" screen
+02-06 10:26:26.070 D/nbrahman(20780):  <8> - Activity A:onResume()       //Activity A is again ready for user interaction due to "Stack" soft key click from "Recent Apps" screen

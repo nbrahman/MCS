@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notepad_paper">#008000</color>
+    <color name="notepad_lines">#ff0000</color>
+    <color name="notepad_margin">#ff0000</color>
+    <color name="notepad_text">#ff0000</color>
+</resources>

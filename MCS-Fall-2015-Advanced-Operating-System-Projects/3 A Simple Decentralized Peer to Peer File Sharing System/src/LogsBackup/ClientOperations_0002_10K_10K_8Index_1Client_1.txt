@@ -1,0 +1,19 @@
+Registry for files started at 11/04/2015 4:15:43 PM
+
+Registry for 10000 files completed at 11/04/2015 4:15:46 PM
+
+ Time taken for 10000 individual Registry is 2616mSec
+
+Lookup for files started at 11/04/2015 4:15:46 PM
+
+Lookup for 10000 files completed at 11/04/2015 4:16:18 PM
+
+ Time taken for 10000 individual Search is 31719mSec
+
+Download for files started at 11/04/2015 4:16:18 PM
+
+Download for 10000 files completed at 11/04/2015 4:17:59 PM
+
+ Time taken for 10000 individual Downloads is 101637mSec
+
+Total Time taken for 10000 individual Registry, Search and Downloads is 135972mSec

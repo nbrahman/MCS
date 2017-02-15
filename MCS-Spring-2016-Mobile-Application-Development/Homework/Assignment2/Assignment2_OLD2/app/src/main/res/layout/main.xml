@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+		<EditText
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/myEditTextName"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:contentDescription="New Name"
+			android:hint="New Name" />
+
+		<EditText
+			android:id="@+id/myEditTextDesc"
+			android:layout_width="125dp"
+			android:layout_height="wrap_content"
+			android:contentDescription="New Description"
+			android:hint="New Description" />
+
+		<EditText
+			android:id="@+id/myEditTextPrice"
+			android:layout_width="90dp"
+			android:layout_height="wrap_content"
+			android:contentDescription="New Price"
+			android:hint="New Price" />
+
+		<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="34dp"
+			android:textAlignment="center"
+			android:text="+"
+			android:id="@+id/btnAdd"/>
+
+		<ListView
+			android:id="@+id/myListView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>

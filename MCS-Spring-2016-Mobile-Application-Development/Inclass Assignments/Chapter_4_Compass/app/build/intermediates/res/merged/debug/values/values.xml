@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#555555</color>
+    <color name="marker_color">#0000cc</color>
+    <color name="text_color">#ffffff</color>
+    <string name="app_name">Compass</string>
+    <string name="cardinal_east">E</string>
+    <string name="cardinal_north">N</string>
+    <string name="cardinal_south">S</string>
+    <string name="cardinal_west">W</string>
+</resources>

@@ -1,0 +1,3 @@
+##An Empirical Evaluation of Distributed Key-Value Storage Systems
+
+In this project, we evaluated various distributed key/value storage systems using AWS cloud ’s EC2 service. We evaluated MongoDB, Cassandra, CouchDB, Redis. The evaluation results were compared Project 2 ("A Simple Distributed Hash Table") results. A poster (2 feet by 3 feet) was prepared to explain the complete project findings and the comparison results.

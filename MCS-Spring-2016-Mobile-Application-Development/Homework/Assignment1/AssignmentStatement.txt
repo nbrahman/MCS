@@ -1,0 +1,53 @@
+Assignment 1: Understanding Activity Life Cycle
+
+Notes
+
+1. About log counter Each activity can have its own <#> as the log counter. So in our case, the activity A, B and C, totally  3 counters could be see in logs. Since the log is sequenced by time stamp in the first column, log record will be sequenced too.
+
+2. About log command
+
+I used Windows Dos command as the example. If you use Linux or Mac, you should change find to grep or you can use your way to find the log recorded by your app.
+
+3. About log comments
+
+You have to explain all logged data from your code. Basically just explain what event triggered the callback function and which state of each activity it entered from what state after the event happened.
+
+ 
+
+Description
+
+This assignment is for student to understand activity life cycle and callback functions. 
+
+1. Modify the activity life cycle app from Lesson 3 in class assignment (refer to the last slide)
+
+1>Add log for each callback function for every activity (3 of them)
+
+2>Each log format should be:
+
+Log.d("<your email id>:", "<#> - ActivityA: OnCreate()");
+
+The <your email id> could be zhao3 and the <#> value is an incremental value which will be increased 1 if the corresponding callback function is triggered. So for the first line of the log should be:
+
+02-01 21:05:56.791  1287  1328 D zhao3 : 1 - ActivityA: OnCreate()
+
+2. Run the app;
+
+3. In the app screen, click Start B button, then Start C, then Dialog, then Stack soft key (in the bottom, right of the screen), then click Back soft key (in the bottom, left of the screen), then click Start A, click Home key, start App2 again, click Start B, click Back key, then click Back key again
+
+4. In shell window, run following command to get your log file which name uses your email id
+
+adb logcat -v time|find "zhao3" >zhao3_log_report.txt
+
+5. Edit your log report file to add comments to indicate which event or user operation above triggered what operation(s) or callback function(s) to make the corresponding activity to be in which sate.
+
+6. First time start the app, uses how many different minimum user operations to trigger onRestart() for Activity A? List all possible cases. The user operations could click one of the four buttons or one of the three soft keys.
+
+7. Submit your log report file only.
+
+Score
+
+Step 1-5 completed correctly +7 points
+
+Step 6 find all possible minimum triggers successfully +3
+
+For any wrong comments, - 1 point

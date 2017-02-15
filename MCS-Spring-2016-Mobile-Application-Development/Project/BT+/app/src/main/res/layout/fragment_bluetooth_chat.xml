@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chatFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aircraft"
+    android:orientation="vertical"
+    android:padding="0dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1">
+
+            <ListView
+                android:id="@+id/in"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:stackFromBottom="true"
+                android:configChanges="orientation|screenSize"
+                android:transcriptMode="alwaysScroll" />
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9">
+
+            <Button
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/save"
+                android:foreground="#0f007e" />
+
+            <Button
+                android:id="@+id/send_file"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/image"
+                android:foreground="#ffdd00" />
+        </LinearLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+
+        <EditText
+            android:id="@+id/edit_text_out"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/chat_input"
+            android:hint="Enter message"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColorHint="#b4ffffff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/send_ico_orange"
+            android:foreground="#da0049" />
+    </LinearLayout>
+
+</LinearLayout>
